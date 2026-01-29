@@ -14,4 +14,4 @@ app.listen(port, () => {
 });
 
 app.use("/quizzes", quizRoute);
-app.use("/quizzes", questionRoute);
+app.use("/questions", questionRoute);
